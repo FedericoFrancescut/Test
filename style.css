@@ -8,11 +8,20 @@ html{
     font-size: 62.5%;
 }
 
-h1{
-    font-size: 4rem;
+.box1,
+.box2,
+.box3{
+    max-width: 80rem;
+    height: 30rem;
+    border: 1px solid #000000; 
+    margin: 1rem;
+    font-size: 2.8rem;
 }
 
-button:nth-child(3){
-    padding: 2em 4em;
-    cursor: pointer;
+.box2{
+    float: right;
+}
+
+.box1{
+    float: inline-end;
 }
