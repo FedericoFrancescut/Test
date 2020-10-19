@@ -8,20 +8,101 @@ html{
     font-size: 62.5%;
 }
 
-.box1,
-.box2,
-.box3{
-    max-width: 80rem;
-    height: 30rem;
-    border: 1px solid #000000; 
-    margin: 1rem;
+.clear{
+    clear: both;
+}
+
+h1{
     font-size: 2.8rem;
 }
 
-.box2{
-    float: right;
+h2{
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
 }
 
-.box1{
-    float: inline-end;
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.8rem;
 }
+
+h3{
+    font-size: 2.8rem;
+}
+
+button{
+    font-size: 2.8rem;
+}
+
+nav{
+    background: rgb(61, 81, 102);
+    color: white;
+    padding: 2rem;
+}
+
+nav h1{
+    float: left;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    margin: 0rem 4rem
+}
+
+.hero-section{
+    background-image: url("/IMG/pexels-pixabay-461428.jpg");
+    height: 80rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 10rem;
+    text-shadow: 3px 3px 10px black; /*SHadow can help to read better light color on light color*/
+}
+
+.hero-section button{
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+    background: rgb(25, 122, 224);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.form-section{
+    text-align: center;
+}
+
+form{
+
+}
+
+form input,
+form label,
+form textarea{
+    display: block;
+    font-size: 2.4rem;
+}
+
+form input,
+form textarea{
+    margin: 2rem auto;
+    width: 50%;
+}
+
+form button{
+    margin-bottom: 10rem;
+    padding: 1rem 4rem;
+    background: rgb(25, 122, 224);
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+
